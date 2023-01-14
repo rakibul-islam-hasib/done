@@ -68,7 +68,7 @@ nav ul li a:hover {
     align-items: center;
 }
 
-.header-btn-class .header-btn {
+.header-btn {
     width: 180px;
     height: 64px;
     background-color: #FF900E;
@@ -90,3 +90,36 @@ nav ul li a:hover {
     border-radius: 20px;
 }
 /* header part end */
+/* -----------------QUICK LIST PART------------- */
+.quick-list {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    column-gap: 24px;
+}
+.quick-list-img {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+    border-radius: 8px
+}
+.quick-list-img img {
+    width: 100%;
+}
+/* quick list text coloring */
+.quick-list-text h1
+{
+    font-size: 2.8em;
+    padding-bottom: 18px;
+}
+.quick-list-text p {
+    color: #727272;
+    padding-bottom: 24px;
+}
+.t-part-1 {
+    color: #727272;
+}
+.t-part-2 {
+    color: #FF900E;
+}
