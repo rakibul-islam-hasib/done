@@ -78,6 +78,7 @@ nav ul li a:hover {
     border-radius: 8px;
     color: #fff;
 }
+
 /* -------header image part-------- */
 .header-img-class {
     display: flex;
@@ -85,63 +86,76 @@ nav ul li a:hover {
     align-items: center;
     margin-top: 20px;
 }
+
 .header-img-class img {
     width: 60%;
     border-radius: 20px;
 }
+
 /* header part end */
 /* -----------------QUICK LIST PART------------- */
 .quick-list {
     padding: 50px 50px 130px 50px;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     column-gap: 24px;
 }
+
 .quick-list-img {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
     border-radius: 8px
 }
+
 .quick-list-img img {
     width: 100%;
 }
+
 /* quick list text coloring */
-.quick-list-text h1
-{
+.quick-list-text h1 {
     font-size: 2.8em;
     padding-bottom: 18px;
 }
+
 .quick-list-text p {
     color: #727272;
     padding-bottom: 24px;
 }
+
 .t-part-1 {
     color: #727272;
 }
+
 .t-part-2 {
     color: #FF900E;
 }
+
 /* -----------QUICK LIST PART END----------- */
 /* ----------------------Experience Part Start------------------*/
 .experience {
     display: flex;
     padding: 0 100px 0 100px;
+    margin-bottom: 60px;
 }
+
 .experience-text-header h1 {
     font-size: 2.8em;
     margin-bottom: 15px;
     padding-left: 10px;
     border-left: 4px solid #FF900E;
 }
+
 .experience-text-header p {
     margin-bottom: 20px;
 }
+
 .experience-imageBox img {
     width: 40vw;
     margin-left: 30px;
 }
+
 .card {
     width: 500px;
     height: 100px;
@@ -150,7 +164,23 @@ nav ul li a:hover {
     border-radius: 8px;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
 }
+
 .card h1 {
     font-size: 1.25em;
     font-weight: 600;
+}
+
+.img-btn {
+    position: absolute;
+    left: 600px;
+    top: 2020px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #FF900E;
+    border-radius: 8px;
+    width: 150px;
+    height: 100px;
 }
