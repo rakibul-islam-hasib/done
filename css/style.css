@@ -219,7 +219,7 @@ nav ul li a:hover {
     justify-content: center;
     margin-top: 100px;
     transition: transform 1s , border-radius 2s;
-   
+   cursor: pointer;
 }
 .some-fact-card:hover {
     
