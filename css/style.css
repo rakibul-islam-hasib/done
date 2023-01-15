@@ -299,6 +299,9 @@ video {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.video p {
+    margin-bottom: 20px;
+}
 /* ----------------RESPONSIVE CSS START HERE------------------- */
 @media only screen and (max-width:576px) {
     header {
