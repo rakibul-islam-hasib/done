@@ -169,9 +169,11 @@ nav ul li a:hover {
     font-size: 1.25em;
     font-weight: 600;
 }
+
 .experience-imageBox {
     position: relative;
 }
+
 .img-btn {
     position: absolute;
     top: 550px;
@@ -192,16 +194,20 @@ nav ul li a:hover {
 .some-fact-text {
     padding-left: 10%;
 }
+
 .some-fact-text h1 {
     font-size: 2.8em;
 }
+
 .some-fact-text p {
     font-size: 1.2em;
 }
+
 .some-fact-content {
     display: flex;
     justify-content: space-around;
 }
+
 .some-fact-card {
     width: 150px;
     height: 150px;
@@ -212,7 +218,16 @@ nav ul li a:hover {
     align-items: center;
     justify-content: center;
     margin-top: 100px;
+    transition: transform 1s , border-radius 2s;
+   
 }
+.some-fact-card:hover {
+    
+    transform: rotate(360deg);
+    border-radius: 50%;
+    box-shadow: 200px forestgreen
+}
+
 /* ----------------SOME FACT PART END---------------- */
 /* ------------------Our Sponspors Part--------------- */
 .sponspors-text {
@@ -223,25 +238,29 @@ nav ul li a:hover {
     margin: 100px auto 60px auto;
     text-align: center;
 }
+
 .sponspors-text h1 {
     font-size: 2.8em;
     margin-bottom: 15px;
 }
+
 .sopnspors-company {
     display: flex;
     justify-content: space-around;
     gap: 10px;
     flex-wrap: wrap;
 }
-.sopnspors-company img
-{
+
+.sopnspors-company img {
     filter: grayscale(100%);
     transition: 0.5s;
 }
+
 .sopnspors-company img:hover {
     filter: grayscale(0%);
     cursor: pointer;
 }
+
 /* -------------------FOOTER CSS START------------------ */
 footer {
     margin-top: 100px;
@@ -250,6 +269,7 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
 .footer-container {
     width: 60%;
     height: 100px;
@@ -260,7 +280,25 @@ footer {
     margin-bottom: 100px;
     border-radius: 8px;
 }
-
+/* Video part start  */
+video {
+    width: 60%;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+}
+.video h1 {
+    font-size: 3em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 /* ----------------RESPONSIVE CSS START HERE------------------- */
 @media only screen and (max-width:576px) {
     header {
@@ -335,9 +373,11 @@ footer {
     .quick-list-img {
         grid-template-columns: repeat(1, 1fr);
     }
+
     .img-btn {
-       top: 70%;
+        top: 70%;
     }
+
     .some-fact-content {
         flex-direction: column;
         justify-content: center;
